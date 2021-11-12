@@ -1,4 +1,8 @@
 
+const next = '<i class="fas fa-arrow-right"></i>'
+const prev = '<i class="fas fa-arrow-left"></i>'
+
+
 $(document).ready(function(){
     $('.slider').bxSlider({
         auto: true,
@@ -7,9 +11,13 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        autoplay: false,
+        autoplay: true,
   		autoplayimeout: 3000,
         nav: true,
+        navText: [
+            prev,
+            next
+        ],
         responsiveClass:true,
         responsive:{
             0:{
@@ -18,22 +26,19 @@ $(document).ready(function(){
             },
             600:{
                 items:3,
-                nav:false
+                nav:true 
             },
             1000:{
                 items:4,
-                nav:true,
-                loop:false
+                nav:true
             },
             1250:{
                 items:5,
-                nav:true,
-                loop:false
+                nav:true
             },
             1480:{
                 items:6,
-                nav:true,
-                loop:false
+                nav:true
             }
         }
     })
