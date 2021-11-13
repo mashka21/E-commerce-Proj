@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <div class="wrapper">

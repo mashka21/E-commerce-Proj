@@ -1,0 +1,30 @@
+@media screen and (max-width: 500px) {
+    
+    .container,justify-content-around{
+        width: 100%;
+        display: block;
+        justify-content: flex-start;
+    }
+
+    .logo{
+        width: 40%;
+        margin-top: 12px;
+        position: initial;
+        top: 0;
+        left: 0;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .user_menu {
+        width: 60%;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .user_menu ul li {
+        width: 90px;
+        font-size: 12px;
+    }
+}
