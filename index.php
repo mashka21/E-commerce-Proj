@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styl.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css\media.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="navigation navbar bg-light">
-            <div class="container justify-content-around">
+            <div class="container">
                 <!-- inser logo -->
                 <div class="logo">
                     <img src="images/logo.png" alt="logo">
@@ -25,7 +25,7 @@
                 <!-- search place -->
                 <div class="search_area float-left">
                     <form action="" method="POST">
-                        <input type="text" name="search_box" class="search_box" placeholder="Search all items here">
+                        <input type="text" name="search_box" class="search_box form-control" placeholder="Search all items here">
                         
                         <button class="search_btn btn btn-success"><i class="fas fa-search"></i></button>
                     </form>
