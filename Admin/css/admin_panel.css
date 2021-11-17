@@ -57,3 +57,14 @@ header {
 .working-panel {
     width: 100%;
 }
+
+/* catogories coloring */
+.bg-orange-g {
+    background: linear-gradient(to right, #f5c43f, #b67f07);
+}
+.bg-green-g {
+    background: linear-gradient(to bottom right, #50f856 0%, #0d985c 100%);
+}
+.bg-primary-g {
+    background: linear-gradient(to right, #4c89f1 0%, #0669cc 100%);
+}
