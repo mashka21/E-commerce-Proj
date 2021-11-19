@@ -17,6 +17,7 @@
                 <div class="side-head">
                     <span class="text-white">Admin Panel</span> &nbsp;
                     <i class="fas fa-bars menu-btn text-white"></i>
+                    <i class="fas fa-arrow-right close-btn text-white"></i>
                 </div>
 
                 <!-- header navigation bar -->
@@ -37,15 +38,15 @@
         <!-- sidebar -->
         <section class="sidebar">
             <ul class="nav-bar">
-                <li><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-                <li><a href="#"><i class="fas fa-dolly-flatbed"></i> Brand</a></li>
-                <li><a href="#"><i class="fas fa-dolly"></i> Category</a></li>
-                <li><a href="#"><i class="fas fa-shopping-basket"></i> Products</a></li>
-                <li><a href="#"><i class="fas fa-truck"></i> Orders</a></li>
-                <li><a href="#"><i class="fas fa-truck-loading"></i> Delivery</a></li>
-                <li><a href="#"><i class="fas fa-cogs"></i> Settings</a></li>
-                <li><a href="#"><i class="fas fa-id-badge"></i> Profile</a></li>
-                <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                <li><a href="#"><i class="fas fa-tachometer-alt"></i><span class="text-link"> Dashboard</span></a></li>
+                <li><a href="#"><i class="fas fa-dolly-flatbed"></i><span class="text-link"> Brand</span></a></li>
+                <li><a href="#"><i class="fas fa-dolly"></i><span class="text-link"> Category</span></a></li>
+                <li><a href="#"><i class="fas fa-shopping-basket"></i><span class="text-link"> Products</span></a></li>
+                <li><a href="#"><i class="fas fa-truck"></i><span class="text-link"> Orders</span></a></li>
+                <li><a href="#"><i class="fas fa-truck-loading"></i><span class="text-link"> Delivery</span></a></li>
+                <li><a href="#"><i class="fas fa-cogs"></i><span class="text-link"> Settings</span></a></li>
+                <li><a href="#"><i class="fas fa-id-badge"></i><span class="text-link"> Profile</span></a></li>
+                <li><a href="#"><i class="fas fa-sign-out-alt"></i><span class="text-link"> Logout</span></a></li>
             </ul>
         </section>
         <!-- This is working place/panel-->

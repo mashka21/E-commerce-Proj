@@ -4,6 +4,10 @@ header {
     line-height: 50px;
     background: teal;
 }
+.close-btn {
+    cursor: pointer;
+    visibility: hidden;
+}
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -33,7 +37,7 @@ header {
 }
 .sidebar {
     width: 300px;
-    background: rgb(112, 220, 220);
+    background: rgb(11, 84, 76);
     min-height: calc(100vh);
 }
 .sidebar ul {
