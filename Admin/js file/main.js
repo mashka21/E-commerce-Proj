@@ -24,5 +24,10 @@ $(document).ready(function() {
         $('.close-btn').css({
             'visibility': 'hidden',
         });
-    })
+    });
+
+    $('.add_category').click(function() {
+        $('#catModel').modal('show');
+        $('.modal-title').text("Add categories");
+    });
 });
